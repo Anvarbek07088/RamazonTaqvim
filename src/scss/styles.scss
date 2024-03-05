@@ -1,0 +1,21 @@
+@use "./veriables.scss" as vars;
+@use "./mixins.scss" as mix;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0px 25px;
+    margin:  0 auto;
+}
+
+body{
+    font-family: "Arial", sans-serif;
+    background-color: vars.$main-background;
+    overflow-x: hidden;
+}
