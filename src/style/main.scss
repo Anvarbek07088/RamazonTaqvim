@@ -323,6 +323,7 @@
           color: #1c4a36;
           font-size: 25px;
           font-weight: 900;
+          font-family: var(--second-family);
         }
 
         .VaqtlarDivs{
@@ -339,6 +340,10 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
+                p{
+                    font-family: var(--second-family);
+                }
             }
         }
 
