@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Taqvim from "./components/Taqvim";
 import Surah from "./components/Surah";
+import NamozVaqti from "./components/NamozVaqt";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +33,7 @@ function App() {
             <Route path="/main" element={<Main />} />
             <Route path="/taqvim" element={<Taqvim />} />
             <Route path="/surah" element={<Surah />} />
+            <Route path="/namozvaqti" element={<NamozVaqti />} />
           </Routes>
         </main>
         <Footer />

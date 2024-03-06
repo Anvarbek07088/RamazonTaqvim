@@ -27,6 +27,11 @@ const Header = () => {
                 Duolar
               </NavLink>
             </li>
+            <li>
+              <NavLink to={"/namozvaqti"} className="text ">
+                Namoz 
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
