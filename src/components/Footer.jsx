@@ -40,17 +40,17 @@ const Footer = () => {
           <div className="footerBottomUl">
             <ul className="">
               <li>
-                <NavLink to={"/"} className="text home">
+                <NavLink to={"/"} className="text ">
                   Bosh sahifa
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/taqvim"} className="text taqvim">
+                <NavLink to={"/taqvim"} className="text">
                   Taqvim
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/surah"} className="text surah">
+                <NavLink to={"/surah"} className="text ">
                   Suralar
                 </NavLink>
               </li>
@@ -59,18 +59,18 @@ const Footer = () => {
           <div className="footerBottomUl2">
             <ul className="">
               <li>
-                <NavLink to={"/"} className="text home">
-                  <img src={Fesbok} alt="" />
+                <NavLink to={"https://t.me/IT_bmats"} className="text">
+                  <a href="https://t.me/IT_bmats"><img src={Fesbok} alt="" /></a>
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/taqvim"} className="text taqvim">
-                  <img src={twitter} alt="" />
+                <NavLink to={"https://t.me/IT_bmats"} className="text">
+                  <a href="https://t.me/IT_bmats"><img src={twitter} alt="" /></a>
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/surah"} className="text surah">
-                  <img src={insta} alt="" />
+                <NavLink to={"https://t.me/IT_bmats"} className="text">
+                  <a href="https://t.me/IT_bmats"><img src={insta} alt="" /></a>
                 </NavLink>
               </li>
             </ul>

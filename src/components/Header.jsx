@@ -6,23 +6,25 @@ const Header = () => {
     <div className="header">
       <div className="container ">
         <div>
-          <img src={headerLogo} alt="" />
+          <NavLink to="/">
+            <img src={headerLogo} alt="" />
+          </NavLink>
         </div>
         <div>
           <ul className="">
             <li>
-              <NavLink to={"/"} className="text home">
+              <NavLink to={"/"} className="text ">
                 Bosh sahifa
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/taqvim"} className="text taqvim">
+              <NavLink to={"/taqvim"} className="text ">
                 Taqvim
               </NavLink>
             </li>
             <li>
-              <NavLink to={"/surah"} className="text surah">
-                Suralar
+              <NavLink to={"/surah"} className="text ">
+                Duolar
               </NavLink>
             </li>
           </ul>

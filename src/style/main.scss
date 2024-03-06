@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-//--------------------------------------  Header -----------------------------------  //
-
 @font-face {
   font-family: "Open_Sans";
   src: url("../style/fonts/OpenSans-VariableFont_wdth\wght.ttf");
@@ -26,6 +24,8 @@
   --third-family: "Lexend_Deca", sans-serif;
 }
 
+//--------------------------------------  Header -----------------------------------  //
+
 .container {
   width: 1100px;
   padding: 0 50px;
@@ -34,12 +34,12 @@
 
 .header {
   background: #20563f;
-  height: 62px;
 
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 82px;
 
     ul {
       display: flex;
@@ -52,8 +52,6 @@
         display: flex;
         justify-content: center;
 
-        
-
         .text {
           font-family: var(--font-family);
           font-weight: 400;
@@ -62,9 +60,9 @@
           color: #fff;
           text-decoration: none;
 
-          &:hover{
+          &:hover {
             border-bottom: 1px solid #fff;
-        }
+          }
         }
       }
     }
@@ -176,15 +174,15 @@
         }
       }
 
-      .footerBottomUl2{
-        ul{
-            display: flex;
-            gap: 20px;
-            align-items: center;
+      .footerBottomUl2 {
+        ul {
+          display: flex;
+          gap: 20px;
+          align-items: center;
 
-            li{
-                list-style: none;
-            }
+          li {
+            list-style: none;
+          }
         }
       }
     }
@@ -195,8 +193,48 @@
 //=====================================================================================================
 
 //--------------------------------------  Home -----------------------------------//
-.flex-grow{
-    height: 300px;
+.home {
+  background-color: #fff;
+
+  .container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 648px;
+
+    img {
+      width: 409px;
+      height: 401px;
+      border-radius: 100%;
+      fill: #d8d8d8;
+    }
+
+    .homeText {
+      width: 450px;
+      height: 262px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      p:nth-child(1) {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #495567;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+      }
+      p:nth-child(2) {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #939caa;
+      }
+    }
+  }
 }
 //--------------------------------------  Home -----------------------------------//
 
@@ -215,5 +253,42 @@
 //=====================================================================================================
 
 //--------------------------------------  Surah -----------------------------------//
+.surah {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 547px;
+    gap: 30px;
 
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-direction: column;
+
+      p:nth-child(1) {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 173%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #000;
+      }
+
+      p:nth-child(3) {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 187%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #000;
+      }
+    }
+  }
+}
 //--------------------------------------  Surah -----------------------------------//
