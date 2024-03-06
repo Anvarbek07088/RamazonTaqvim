@@ -51,7 +51,12 @@ const Footer = () => {
               </li>
               <li>
                 <NavLink to={"/surah"} className="text ">
-                  Suralar
+                  Duolar
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to={"/namozvaqti"} className="text ">
+                  Namoz
                 </NavLink>
               </li>
             </ul>
@@ -60,17 +65,23 @@ const Footer = () => {
             <ul className="">
               <li>
                 <NavLink to={"https://t.me/IT_bmats"} className="text">
-                  <a href="https://t.me/IT_bmats"><img src={Fesbok} alt="" /></a>
+                  <a href="https://t.me/IT_bmats">
+                    <img src={Fesbok} alt="" />
+                  </a>
                 </NavLink>
               </li>
               <li>
                 <NavLink to={"https://t.me/IT_bmats"} className="text">
-                  <a href="https://t.me/IT_bmats"><img src={twitter} alt="" /></a>
+                  <a href="https://t.me/IT_bmats">
+                    <img src={twitter} alt="" />
+                  </a>
                 </NavLink>
               </li>
               <li>
                 <NavLink to={"https://t.me/IT_bmats"} className="text">
-                  <a href="https://t.me/IT_bmats"><img src={insta} alt="" /></a>
+                  <a href="https://t.me/IT_bmats">
+                    <img src={insta} alt="" />
+                  </a>
                 </NavLink>
               </li>
             </ul>

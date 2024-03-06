@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import asr from "../Imges/asr.webp";
+import bomdod from "../Imges/bomdod.webp";
+import peshin from "../Imges/peshin.webp";
+import quyosh from "../Imges/quyosh.webp";
+import shom from "../Imges/shom.webp";
+import xufton from "../Imges/xufton.webp";
 
 const NamozVaqti = () => {
   const [namozDate, setNamozDate] = useState("");
@@ -41,43 +47,110 @@ const NamozVaqti = () => {
           <option value="Andijon">Andijon</option>
         </select>
 
-        <p className="hudud">{hudud} Shahri</p>
+        <p className="hudud">
+          {hudud} Shahri. (
+          <span>
+            {namozDate.weekday} || {namozDate.date}
+          </span>
+          )
+        </p>
 
         <div className="VaqtlarDivs">
-          {!loading ? (
-            <>
-              <div>
-                <p>Tong saharlik</p>
-                <p>{namozDate.times.tong_saharlik}</p>
-              </div>
-              <div>
-                <p>Quyosh</p>
-                <p>{namozDate.times.quyosh}</p>
-              </div>
+          <div>
+            <div>
+              <img src={bomdod} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Tong saharlik</p>
+                  <p>{namozDate.times.tong_saharlik}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
 
-              <div>
-                <p>Peshin</p>
-                <p>{namozDate.times.peshin}</p>
-              </div>
+          <div>
+            <div>
+              <img src={quyosh} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Quyosh</p>
+                  <p>{namozDate.times.quyosh}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
 
-              <div>
-                <p>Asr</p>
-                <p>{namozDate.times.asr}</p>
-              </div>
+          <div>
+            <div>
+              <img src={peshin} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Peshin</p>
+                  <p>{namozDate.times.peshin}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
 
-              <div>
-                <p>Shom iftor</p>
-                <p>{namozDate.times.shom_iftor}</p>
-              </div>
+          <div>
+            <div>
+              <img src={asr} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Asr</p>
+                  <p>{namozDate.times.asr}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
 
-              <div>
-                <p>Hufton</p>
-                <p>{namozDate.times.hufton}</p>
-              </div>
-            </>
-          ) : (
-            <h1>Loading...</h1>
-          )}
+          <div>
+            <div>
+              <img src={shom} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Shom iftor</p>
+                  <p>{namozDate.times.shom_iftor}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <img src={xufton} alt="" />
+            </div>
+            <div>
+              {!loading ? (
+                <>
+                  <p>Hufton</p>
+                  <p>{namozDate.times.hufton}</p>
+                </>
+              ) : (
+                <h3>Loading...</h3>
+              )}
+            </div>
+          </div>
         </div>
 
         <div>
