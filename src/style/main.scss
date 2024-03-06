@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//--------------------------------------  Header -----------------------------------  //
+
+@font-face {
+  font-family: "Open_Sans";
+  src: url("../style/fonts/OpenSans-VariableFont_wdth\wght.ttf");
+}
+@font-face {
+  font-family: "Space_Mono";
+  src: url("../style/fonts/SpaceMono-Regular.ttf") format("woff2"),
+    url("../style/fonts/SpaceMono-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Lexend_Deca";
+  src: url("../style/fonts/LexendDeca-VariableFont_wght.ttf");
+}
+
+:root {
+  --font-family: "Open_Sans", sans-serif;
+  --second-family: "Space_Mono", sans-serif;
+  --third-family: "Lexend_Deca", sans-serif;
+}
+
+.container {
+  width: 1100px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #20563f;
+  height: 62px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 16px;
+        width: 113px;
+        height: 56px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        
+
+        .text {
+          font-family: var(--font-family);
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 160%;
+          color: #fff;
+          text-decoration: none;
+
+          &:hover{
+            border-bottom: 1px solid #fff;
+        }
+        }
+      }
+    }
+  }
+}
+//--------------------------------------  Header -----------------------------------//
+
+//=====================================================================================================
+
+//--------------------------------------  Footer -----------------------------------//
+.footer {
+  .footer_top {
+    background-color: #20563f;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 243px;
+
+      .footerTex1 {
+        width: 447px;
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #fff;
+      }
+
+      .footerBtns {
+        display: flex;
+        width: 324px;
+        gap: 20px;
+
+        .footerBtn {
+          width: 176px;
+          height: 44px;
+          background-color: #fff;
+          border-radius: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+
+          img {
+            width: 21px;
+            height: 22px;
+          }
+
+          .footerBtnText {
+            display: flex;
+            flex-direction: column;
+
+            p:nth-child(1) {
+              font-family: var(--second-family);
+              font-weight: 700;
+              font-size: 11px;
+              line-height: 155%;
+              letter-spacing: -0.08em;
+              color: #1c4a36;
+            }
+
+            p:nth-child(2) {
+              font-family: var(--second-family);
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 150%;
+              letter-spacing: -0.06em;
+              color: #1c4a36;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer_bottom {
+    background: #2f7b5b;
+
+    .container {
+      height: 77px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .footerBottomUl {
+        ul {
+          display: flex;
+
+          li {
+            padding: 16px;
+            width: 113px;
+            height: 56px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+            .text {
+              font-family: var(--font-family);
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 160%;
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .footerBottomUl2{
+        ul{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            li{
+                list-style: none;
+            }
+        }
+      }
+    }
+  }
+}
+//--------------------------------------  Footer -----------------------------------//
+
+//=====================================================================================================
+
+//--------------------------------------  Home -----------------------------------//
+.flex-grow{
+    height: 300px;
+}
+//--------------------------------------  Home -----------------------------------//
+
+//=====================================================================================================
+
+//--------------------------------------  Main -----------------------------------//
+
+//--------------------------------------  Main -----------------------------------//
+
+//=====================================================================================================
+
+//--------------------------------------  Taqvim -----------------------------------//
+
+//--------------------------------------  Taqvim -----------------------------------//
+
+//=====================================================================================================
+
+//--------------------------------------  Surah -----------------------------------//
+
+//--------------------------------------  Surah -----------------------------------//
