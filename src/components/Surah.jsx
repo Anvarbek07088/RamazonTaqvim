@@ -1,38 +1,72 @@
+import { NavLink } from "react-router-dom";
+
 const Surah = () => {
   return (
-    <div className="surah">
-      <div className="container ">
-      <div>
-        <p>RO‘ZA TUTISH (OG‘IZ YOPISH) DUOSI </p>
-        <p>
-          نَوَيْتُ أَنْ أَصُومَ صَوْمَ شَهْرِ رَمَضَانَ مِنَ الْفَجْرِ إِلَى
-          الْمَغْرِبِ، خَالِصًا لِلهِ تَعَالَى أَللهُ أَكْبَرُ
-        </p>
-        <p>
-          Navaytu an asuma sovma shahri romazona minal fajri ilal mag‘ribi,
-          xolisan lillahi ta’ala. Allohu akbar. Ma’nosi: Ramazon oyining
-          ro‘zasini subhdan to kun botguncha tutmoqni niyat qildim. Xolis Alloh
-          uchun. Alloh Buyukdir.
-        </p>
+    <div>
+      <div className="surah">
+        <div className="container ">
+          <div>
+            <p>RO‘ZA TUTISH (OG‘IZ YOPISH) DUOSI </p>
+            <p>
+              نَوَيْتُ أَنْ أَصُومَ صَوْمَ شَهْرِ رَمَضَانَ مِنَ الْفَجْرِ إِلَى
+              الْمَغْرِبِ، خَالِصًا لِلهِ تَعَالَى أَللهُ أَكْبَرُ
+            </p>
+            <p>
+              Navaytu an asuma sovma shahri romazona minal fajri ilal mag‘ribi,
+              xolisan lillahi ta’ala. Allohu akbar. Ma’nosi: Ramazon oyining
+              ro‘zasini subhdan to kun botguncha tutmoqni niyat qildim. Xolis
+              Alloh uchun. Alloh Buyukdir.
+            </p>
+          </div>
+
+          <div>
+            <p>IFTORLIK (OG‘IZ OCHISH) DUOSI</p>
+            <p>
+              اَللَّهُمَّ لَكَ صُمْتُ وَ بِكَ آمَنْتُ وَ عَلَيْكَ تَوَكَّلْتُ وَ
+              عَلَى رِزْقِكَ أَفْتَرْتُ، فَغْفِرْلِى مَا قَدَّمْتُ وَ مَا
+              أَخَّرْتُ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ
+            </p>
+            <p>
+              Allohumma laka sumtu va bika amantu va ‘alayka tavakkaltu va ‘ala
+              rizqika aftartu, fag‘firli ya g‘offaruma qoddamtu va ma
+              axxortu.Ma’nosi: Ey Alloh, ushbu ro‘zamni Sen uchun tutdim va
+              Senga iymon keltirdim va Senga tavakkal qildim va bergan rizqing
+              bilan iftor qildim. Ey gunohlarni afv qiluvchi Zot, mening avvalgi
+              va keyingi gunohlarimni mag‘firat qilgil.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <p>IFTORLIK (OG‘IZ OCHISH) DUOSI</p>
-        <p>
-          اَللَّهُمَّ لَكَ صُمْتُ وَ بِكَ آمَنْتُ وَ عَلَيْكَ تَوَكَّلْتُ وَ
-          عَلَى رِزْقِكَ أَفْتَرْتُ، فَغْفِرْلِى مَا قَدَّمْتُ وَ مَا أَخَّرْتُ
-          بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ
-        </p>
-        <p>
-          Allohumma laka sumtu va bika amantu va ‘alayka tavakkaltu va ‘ala
-          rizqika aftartu, fag‘firli ya g‘offaruma qoddamtu va ma
-          axxortu. Ma’nosi: Ey Alloh, ushbu ro‘zamni Sen uchun tutdim va Senga
-          iymon keltirdim va Senga tavakkal qildim va bergan rizqing bilan iftor
-          qildim. Ey gunohlarni afv qiluvchi Zot, mening avvalgi va keyingi
-          gunohlarimni mag‘firat qilgil.
-        </p>
+      <div className="SurahSavol">
+        <div className="container">
+          <div>
+            <NavLink to="/surah" className="savol">
+              Duolar
+            </NavLink>
+          </div>
+          <div>
+            <NavLink to="/surah/savol1" className="savol">
+              RO‘ZA QANDAY IBODAT?
+            </NavLink>
+          </div>
+          <div>
+            <NavLink to="/surah/savol2" className="savol">
+              RO‘ZANING DARAJALARI
+            </NavLink>
+          </div>
+          <div>
+            <NavLink to="/surah/savol3" className="savol">
+              RO‘ZANING SHARTLARI
+            </NavLink>
+          </div>
+          <div>
+            <NavLink to="/surah/savol4" className="savol">
+              RO‘ZANING TURLARI
+            </NavLink>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   );
 };

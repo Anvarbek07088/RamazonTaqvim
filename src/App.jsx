@@ -14,14 +14,16 @@ import Main from "./components/Main";
 import Taqvim from "./components/Taqvim";
 import Surah from "./components/Surah";
 import NamozVaqti from "./components/NamozVaqt";
+import Ibodat from "./components+/RozaQandayIbodat";
+import Daraja from "./components+/RozaningDarajalari";
+import Shartlari from "./components+/RozaningShartlari";
+import Turlari from "./components+/RozaningTurlari";
 
 function App() {
-  const [count, setCount] = useState(0);
   React.useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-
 
   return (
     <MyContext.Provider value={{}}>
@@ -33,6 +35,10 @@ function App() {
             <Route path="/main" element={<Main />} />
             <Route path="/taqvim" element={<Taqvim />} />
             <Route path="/surah" element={<Surah />} />
+            <Route path="/surah/savol1" element={<Ibodat />} />
+            <Route path="/surah/savol2" element={<Daraja />} />
+            <Route path="/surah/savol3" element={<Shartlari />} />
+            <Route path="/surah/savol4" element={<Turlari />} />
             <Route path="/namozvaqti" element={<NamozVaqti />} />
           </Routes>
         </main>
