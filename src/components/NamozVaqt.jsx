@@ -11,6 +11,7 @@ const NamozVaqti = () => {
   const [namozDate, setNamozDate] = useState("");
   let [hudud, setHudud] = useState("Toshkent");
   let [loading, setLoading] = useState(true);
+  let [time,setTime]=useState('')
 
   useEffect(() => {
     setLoading(true);
@@ -22,6 +23,10 @@ const NamozVaqti = () => {
         setLoading(false);
       });
   }, [hudud]);
+
+  setTimeout(() => {
+    setTime(`${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`)
+  }, 1000);
 
   return (
     <div className="namozVaqti">
@@ -52,11 +57,11 @@ const NamozVaqti = () => {
           <span>
             {namozDate.weekday} || {namozDate.date}
           </span>
-          )
+          )[<span>{time}</span>]
         </p>
 
         <div className="VaqtlarDivs">
-          <div>
+          <div >
             <div>
               <img src={bomdod} alt="" />
             </div>

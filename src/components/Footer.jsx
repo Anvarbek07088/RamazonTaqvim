@@ -1,6 +1,6 @@
-import aplle from "../Imges/apple.svg";
+import youtube from "../Imges/youtube.png";
+import telegram from "../Imges/telegram.png";
 import headerLogo from "../Imges/RamazonLogo.svg";
-import googlePlay from "../Imges/googlePlay.svg";
 import Fesbok from "../Imges/Fesbok.svg";
 import insta from "../Imges/insta.svg";
 import twitter from "../Imges/twitter1.svg";
@@ -15,20 +15,24 @@ const Footer = () => {
             <p className="footerTex1">Bizni o`z telefoningizda kuzating</p>
           </div>
           <div className="footerBtns">
-            <div className="footerBtn">
-              <img src={aplle} alt="" />
-              <div className="footerBtnText">
-                <p>Available on the</p>
-                <p>AppStore</p>
+            <NavLink to={"https://t.me/IT_bmats"} className="textDicNone">
+              <div className="footerBtn">
+                <img src={telegram} alt="" />
+                <div className="footerBtnText">
+                  <p>Available on the</p>
+                  <p>Telegram</p>
+                </div>
               </div>
-            </div>
-            <div className="footerBtn">
-              <img src={googlePlay} alt="" />
-              <div className="footerBtnText">
-                <p>Get it on</p>
-                <p>GooglePlay</p>
+            </NavLink>
+            <NavLink to={"https://youtube.com/@anvarbek07088?si=WgJ2Ka7FcPk1Gsma"} className="textDicNone">
+              <div className="footerBtn">
+                <img src={youtube} alt="" />
+                <div className="footerBtnText">
+                  <p>Get it on</p>
+                  <p>YouTube</p>
+                </div>
               </div>
-            </div>
+            </NavLink>
           </div>
         </div>
       </div>
