@@ -25,10 +25,10 @@ function App() {
     AOS.init();
     AOS.refresh();
   }, []);
-
+  let [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <MyContext.Provider value={{}}>
+    <MyContext.Provider value={{menuOpen,setMenuOpen}}>
       <Router>
         <Header />
         <main className="flex-grow ">

@@ -2,19 +2,21 @@ import { NavLink } from "react-router-dom";
 import headerLogo from "../Imges/RamazonLogo.svg";
 import menu from "../Imges/menu.png";
 import Xlogo from "../Imges/Xlogo.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { MyContext } from "../App";
 
 const Header = () => {
-  let [menuOpen, setMenuOpen] = useState(false);
+  const value =useContext(MyContext)
 
   return (
     <div className="header">
       <div className="container ">
         <div className="menuBar">
-          <div onClick={() => setMenuOpen(!menuOpen)}>
-            <img src={menuOpen ? Xlogo : menu} alt="" />
+          <div onClick={() => value.setMenuOpen(!value.menuOpen)}>
+            <img src={value.menuOpen ? Xlogo : menu} alt="" />
           </div>
-          <div className={menuOpen ? " menuOpens;" : "menuNoOpens"}>
+          <div id={"menuBacround" } className={value.menuOpen ? " menuOpens;" : "menuNoOpens"} onClick={() => value.setMenuOpen(false)}></div>
+          <div className={value.menuOpen ? " menuOpens;" : "menuNoOpens"}>
             <ol className="olHeader">
               <li>
                 <NavLink to={"/"} className="text ">
