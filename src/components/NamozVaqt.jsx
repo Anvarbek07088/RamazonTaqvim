@@ -53,11 +53,11 @@ const NamozVaqti = () => {
         </select>
 
         <p className="hudud">
-          {hudud} Shahri. (
-          <span>
+          <span>{hudud} Shahri.</span> <span>(
+          
             {namozDate.weekday} || {namozDate.date}
-          </span>
-          )[<span>{time}</span>]
+          
+          )</span><span>[{time}]</span>
         </p>
 
         <div className="VaqtlarDivs">

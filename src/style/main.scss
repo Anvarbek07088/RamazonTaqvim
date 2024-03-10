@@ -42,6 +42,10 @@
     align-items: center;
     height: 82px;
 
+    .menuBar {
+      display: none;
+    }
+
     ul {
       display: flex;
 
@@ -71,7 +75,91 @@
 }
 //--------------------------------------  Header -----------------------------------//
 //-------------------------------------- Header responsive -------------------------//
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
 
+    .container {
+      padding: 0 30px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .header {
+    width: 100%;
+
+    .container {
+      padding: 0px 40px;
+    }
+  }
+}
+@media (min-width: 535px) and (max-width: 655px) {
+  .header {
+    width: 100%;
+
+    .container {
+      padding: 0px 20px;
+
+      .headerLogo {
+        display: none;
+      }
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 535px) {
+  .header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+    .container {
+      padding: 0px 20px;
+
+      .menuBar {
+        display: inline;
+        position: relative;
+      }
+      ul {
+        display: none;
+      }
+
+      .menuOpens {
+        display: inline;
+
+        ol .text {
+          text-decoration: none;
+          list-style: none;
+        }
+      }
+      .olHeader {
+        width: 150px;
+        height: 200px;
+        padding: 20px 20px;
+        z-index: 1;
+        background-color: #1c4a36;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, 10%);
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+      }
+      .olHeader .text {
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+      }
+      .menuNoOpens {
+        display: none;
+      }
+    }
+  }
+}
 //-------------------------------------- Header responsive -------------------------//
 
 //=====================================================================================================
@@ -103,50 +191,49 @@
         width: 324px;
         gap: 20px;
 
-        .textDicNone{
+        .textDicNone {
           text-decoration: none;
-        
 
-        .footerBtn {
-          width: 176px;
-          height: 44px;
-          background-color: #fff;
-          border-radius: 4px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 10px;
-          cursor: pointer;
-
-          img {
-            width: 21px;
-            height: 22px;
-          }
-
-          .footerBtnText {
+          .footerBtn {
+            width: 176px;
+            height: 44px;
+            background-color: #fff;
+            border-radius: 4px;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
 
-            p:nth-child(1) {
-              font-family: var(--second-family);
-              font-weight: 700;
-              font-size: 11px;
-              line-height: 155%;
-              letter-spacing: -0.08em;
-              color: #1c4a36;
+            img {
+              width: 21px;
+              height: 22px;
             }
 
-            p:nth-child(2) {
-              font-family: var(--second-family);
-              font-weight: 700;
-              font-size: 16px;
-              line-height: 150%;
-              letter-spacing: -0.06em;
-              color: #1c4a36;
+            .footerBtnText {
+              display: flex;
+              flex-direction: column;
+
+              p:nth-child(1) {
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 11px;
+                line-height: 155%;
+                letter-spacing: -0.08em;
+                color: #1c4a36;
+              }
+
+              p:nth-child(2) {
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: -0.06em;
+                color: #1c4a36;
+              }
             }
           }
         }
-      }
       }
     }
   }
@@ -201,7 +288,110 @@
 }
 //--------------------------------------  Footer -----------------------------------//
 //-------------------------------------- Footer responsive -------------------------//
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
 
+    .footer_top {
+      width: 100%;
+      height: 300px;
+
+      .container {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .footerTex1 {
+          width: 60%;
+          display: flex;
+          margin: 0 auto;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .footer {
+    width: 100%;
+
+    .footer_top {
+      width: 100%;
+      height: 300px;
+      .container {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .footerTex1 {
+          width: 60%;
+          display: flex;
+          margin: 0 auto;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 535px) and (max-width: 655px) {
+  .footer {
+    width: 100%;
+
+    .container {
+      padding: 0px 20px;
+    }
+
+    .footer_bottom {
+      width: 100%;
+      .container {
+        width: 100%;
+        .footerBottomUl2 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 535px) {
+  .footer {
+    width: 100%;
+    padding-top: 20px;
+
+    .footer_top {
+      height: 270px;
+
+      .container {
+        padding: 20px 20px;
+
+        .footerTex1 {
+          font-size: 30px;
+        }
+
+        .footerBtns {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+    .footer_bottom {
+      .container {
+        padding: 0 20px;
+
+        .footerBottomUl2,
+        .footerBottomUl {
+          display: none;
+        }
+      }
+    }
+  }
+}
 //-------------------------------------- Footer responsive -------------------------//
 //=====================================================================================================
 
@@ -252,7 +442,58 @@
 }
 //--------------------------------------  Home -----------------------------------//
 //-------------------------------------- Home responsive -------------------------//
+@media screen and (max-width: 768px) {
+  .home {
+    width: 100%;
 
+    .container {
+      padding: 30px 30px;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .home {
+    width: 100%;
+
+    .container {
+      padding: 30px 40px;
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 535px) {
+  .home {
+    width: 100%;
+    height: 100%;
+
+    .container {
+      padding: 20px 20px;
+      height: 100%;
+      min-height: 750px;
+
+      .homeText {
+        width: 90%;
+        p:nth-child(1) {
+          font-size: 30px;
+        }
+        p:nth-child(2) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
 //-------------------------------------- Home responsive -------------------------//
 //=====================================================================================================
 
@@ -263,10 +504,71 @@
 //=====================================================================================================
 
 //--------------------------------------  Taqvim -----------------------------------//
+.taqvims {
+  .container {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
+    #citys {
+      width: 90%;
+      font-size: 20px;
+      font-family: var(--second-family);
+      background-color: #1c4a36;
+      color: #fff;
+      outline: none;
+    }
+
+    .taqvimJadval {
+      width: 90%;
+
+      .tableTaqvim {
+        width: 100%;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        border: 2px solid #525353;
+        border-collapse: collapse;
+
+        tr th,
+        tr td {
+          border: 2px solid #525353;
+        }
+        tr td {
+          font-family: var(--second-family);
+        }
+        tr th {
+          font-family: var(--third-family);
+          background-color: #1c4a36;
+          color: #fff;
+          height: 40px;
+          border: 2px solid #525353;
+        }
+
+        .TaqvimJuma {
+          border-bottom: 2px solid #1c4a36;
+          color: #fff;
+          background-color: #2f7b5b;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+}
 //--------------------------------------  Taqvim -----------------------------------//
 //-------------------------------------- Taqvim responsive -------------------------//
-
+@media (min-width: 0px) and (max-width: 535px) {
+  .taqvims {
+    width: 100%;
+    padding-top: 60px;
+    .container {
+      font-size: 13px;
+    }
+  }
+}
 //-------------------------------------- Taqvim responsive -------------------------//
 //=====================================================================================================
 
@@ -281,7 +583,6 @@
     height: 547px;
     gap: 30px;
 
-   
     div {
       display: flex;
       justify-content: center;
@@ -312,48 +613,48 @@
   }
 }
 
-.SurahSavol{
-   
-  .container{
+.SurahSavol {
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 
-    .savol{
+    .savol {
       padding: 10px 20px;
       background-color: #20563f;
       color: #fff;
       text-decoration: none;
 
-      &:hover{
+      &:hover {
         background-color: #2f7b5b;
       }
     }
   }
 }
 
-.surahsavollar{
-  .www{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     gap: 20px;
-     padding: 30px 0;
+.surahsavollar {
+  
+  .www {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
 
-     h1{
+    h1 {
       color: #1c4a36;
-      font-family: var( --second-family);
-     }
+      font-family: var(--second-family);
+    }
 
-     p{
+    p {
       color: #20563f;
-      font-family: var(  --font-family);
-     }
+      font-family: var(--font-family);
+    }
   }
-  .SurahSavol{
-    .container{
+  .SurahSavol {
+    .container {
       display: flex;
       justify-content: space-between;
     }
@@ -361,7 +662,51 @@
 }
 //--------------------------------------  Surah -----------------------------------//
 //-------------------------------------- Duolar responsive -------------------------//
-
+@media (min-width: 768px) and (max-width: 1100px) {
+  .SurahSavol {
+    width: 100%;
+    .container {
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .SurahSavol {
+    width: 100%;
+    .container {
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 535px) {
+  .surahsavollar {
+    padding: 20px 20px;
+    padding-top: 60px;
+  }
+  .surah {
+    padding-top: 80px;
+    .container {
+      padding: 20px 20px;
+      height: 750px;
+    }
+  }
+  .SurahSavol {
+    width: 100%;
+    .container {
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 15px;
+    }
+  }
+}
 //-------------------------------------- Duolar responsive -------------------------//
 //=============================================================================================
 
@@ -381,15 +726,16 @@
     #city {
       width: 90%;
       outline: none;
-      height: 30px;
-      color: #1c4a36;
+      height: 35px;
+      background-color: #1c4a36;
+      color: #fff;
       font-family: var(--second-family);
       font-size: 20px;
     }
 
     .hudud {
       width: 90%;
-      background-color:#2f7b5b;
+      background-color: #2f7b5b;
       color: #fff;
       font-size: 25px;
       font-weight: 900;
@@ -452,5 +798,57 @@
 }
 //--------------------------------- namozVaqti -------------------------------------//
 //-------------------------------------- namoz vaqti responsive -------------------------//
+@media screen and (max-width: 768px) {
+  .namozVaqti{
+    width: 100%;
 
+    .container{
+      height: 1000px;
+
+      .hudud{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .namozVaqti{
+    width: 100%;
+
+    .container{
+
+      .hudud{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 535px) {
+  .namozVaqti{
+    width: 100%;
+    padding-top: 60px;
+
+    .container{
+      padding: 0 20px;
+
+      .hudud{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+      }
+
+      .VaqtlarDivs{
+        div{
+          width: 300px;
+        }
+
+        .KunHisobi{
+             text-align: center;
+        }
+      }
+    }
+  }
+}
 //-------------------------------------- namoz vaqti responsive -------------------------//

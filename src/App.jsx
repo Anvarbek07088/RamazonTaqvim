@@ -18,12 +18,14 @@ import Ibodat from "./components+/RozaQandayIbodat";
 import Daraja from "./components+/RozaningDarajalari";
 import Shartlari from "./components+/RozaningShartlari";
 import Turlari from "./components+/RozaningTurlari";
+import axios from "axios";
 
 function App() {
   React.useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
 
   return (
     <MyContext.Provider value={{}}>

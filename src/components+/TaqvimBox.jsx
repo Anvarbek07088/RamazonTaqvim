@@ -1,4 +1,4 @@
-const Duolar = () => {
+const TaqvimBox = () => {
   return (
     <>
      <h1>duo</h1>
@@ -6,4 +6,4 @@ const Duolar = () => {
   );
 };
 
-export default Duolar;
+export default TaqvimBox;
