@@ -1301,380 +1301,567 @@ export const shahars = [
         },
       },
   },
-  //------------------------------
   {
-    name: "Nukus",
-    link: "nukus",
-    id: 8,
-    viloyat: {
+    name: "Buxoro",
+    link: "buxoro",
+    id: 2,
+     viloyat: {
         kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
+          iftorlik:"18:48",
+          saharlik:"5:28",
           haftaKuni:"Dushanba",
           sana:"11.03.2024"
         },
         kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
+          iftorlik:"18:49",
+          saharlik:"5:27",
           haftaKuni:"Seshanba",
           sana:"12.03.2024"
         },
         kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
+          iftorlik:"18:50",
+          saharlik:"5:25",
           haftaKuni:"Chorshanba",
           sana:"13.03.2024"
         },
         kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
+          iftorlik:"18:51",
+          saharlik:"5:23",
           haftaKuni:"Payshanba",
           sana:"14.03.2024"
         },
         kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
+          iftorlik:"18:52",
+          saharlik:"5:22",
           haftaKuni:"Juma",
           sana:"15.03.2024"
         },
         kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
+          iftorlik:"18:53",
+          saharlik:"5:20",
           haftaKuni:"Shanba",
           sana:"16.03.2024"
         }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
+          iftorlik:"18:54",
+          saharlik:"5:18",
           haftaKuni:"Yakshanba",
           sana:"17.03.2024"
         },
         kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
+          iftorlik:"18:55",
+          saharlik:"5:17",
           haftaKuni:"Dushanba",
           sana:"18.03.2024"
         },
         kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
+          iftorlik:"18:56",
+          saharlik:"5:15",
           haftaKuni:"Seshanba",
           sana:"19.03.2024"
         },
         kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
+          iftorlik:"18:57",
+          saharlik:"5:13",
           haftaKuni:"Chorshanba",
           sana:"20.03.2024"
         },
         kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
+          iftorlik:"18:58",
+          saharlik:"5:11",
           haftaKuni:"Payshanba",
           sana:"21.03.2024"
         },
         kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
+          iftorlik:"18:59",
+          saharlik:"5:10",
           haftaKuni:"Juma",
           sana:"22.03.2024"
         },
         kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
+          iftorlik:"19:00",
+          saharlik:"5:08",
           haftaKuni:"Shanba",
           sana:"23.03.2024"
         },
         kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
+          iftorlik:"19:01",
+          saharlik:"5:07",
           haftaKuni:"Yakshanba",
           sana:"24.03.2024"
         },
         kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
+          iftorlik:"19:02",
+          saharlik:"05:05",
           haftaKuni:"Dushanba",
           sana:"25.03.2024"
         },
         kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
+          iftorlik:"19:03",
+          saharlik:"05:03",
           haftaKuni:"Seshanba",
           sana:"26.03.2024"
         },
         kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
+          iftorlik:"19:04",
+          saharlik:"05:01",
           haftaKuni:"Chorshanba",
           sana:"27.03.2024"
         },
         kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
+          iftorlik:"19:05",
+          saharlik:"04:59",
           haftaKuni:"Payshanba",
           sana:"28.03.2024"
         },
         kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
+          iftorlik:"19:06",
+          saharlik:"04:58",
           haftaKuni:"Juma",
           sana:"29.03.2024"
         },
         kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
+          iftorlik:"19:07",
+          saharlik:"04:56",
           haftaKuni:"Shanba",
           sana:"30.03.2024"
         },
         kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
+          iftorlik:"19:08",
+          saharlik:"04:54",
           haftaKuni:"Yakshanba",
           sana:"31.03.2024"
         },
         kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
+          iftorlik:"19:09",
+          saharlik:"04:52",
           haftaKuni:"Dushanba",
           sana:"01.04.2024"
         },
         kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
+          iftorlik:"19:10",
+          saharlik:"04:50",
           haftaKuni:"Seshanba",
           sana:"02.04.2024"
         },
         kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
+          iftorlik:"19:11",
+          saharlik:"04:48",
           haftaKuni:"Chorshanba",
           sana:"03.04.2024"
         },
         kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
+          iftorlik:"19:12",
+          saharlik:"04:46",
           haftaKuni:"Payshanba",
           sana:"04.04.2024"
         },
         kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
+          iftorlik:"19:13",
+          saharlik:"04:44",
           haftaKuni:"Juma",
           sana:"05.04.2024"
         },
         kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
+          iftorlik:"19:14",
+          saharlik:"04:43",
           haftaKuni:"Shanba",
           sana:"06.04.2024"
         },
         kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
+          iftorlik:"19:15",
+          saharlik:"04:41",
           haftaKuni:"Yakshanba",
           sana:"07.04.2024"
         },
         kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
+          iftorlik:"19:16",
+          saharlik:"04:39",
           haftaKuni:"Dushanba",
           sana:"08.04.2024"
         },
         kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
+          iftorlik:"19:17",
+          saharlik:"04:37",
           haftaKuni:"Seshanba",
           sana:"09.04.2024"
         },
       },
   },
-
+  
   {
     name: "Termiz",
     link: "termiz",
     id: 10,
     viloyat: {
         kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
+          iftorlik:"18:37",
+          saharlik:"5:20",
           haftaKuni:"Dushanba",
           sana:"11.03.2024"
         },
         kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
+          iftorlik:"18:39",
+          saharlik:"5:19",
           haftaKuni:"Seshanba",
           sana:"12.03.2024"
         },
         kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
+          iftorlik:"18:41",
+          saharlik:"5:18",
           haftaKuni:"Chorshanba",
           sana:"13.03.2024"
         },
         kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
+          iftorlik:"18:42",
+          saharlik:"5:17",
           haftaKuni:"Payshanba",
           sana:"14.03.2024"
         },
         kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
+          iftorlik:"18:43",
+          saharlik:"5:17",
           haftaKuni:"Juma",
           sana:"15.03.2024"
         },
         kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
+          iftorlik:"18:44",
+          saharlik:"5:16",
           haftaKuni:"Shanba",
           sana:"16.03.2024"
         }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
+          iftorlik:"18:45",
+          saharlik:"5:15",
           haftaKuni:"Yakshanba",
           sana:"17.03.2024"
         },
         kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
+          iftorlik:"18:46",
+          saharlik:"5:14",
           haftaKuni:"Dushanba",
           sana:"18.03.2024"
         },
         kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
+          iftorlik:"18:47",
+          saharlik:"5:13",
           haftaKuni:"Seshanba",
           sana:"19.03.2024"
         },
         kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
+          iftorlik:"18:48",
+          saharlik:"5:12",
           haftaKuni:"Chorshanba",
           sana:"20.03.2024"
         },
         kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
+          iftorlik:"18:49",
+          saharlik:"5:11",
           haftaKuni:"Payshanba",
           sana:"21.03.2024"
         },
         kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
+          iftorlik:"18:50",
+          saharlik:"5:11",
           haftaKuni:"Juma",
           sana:"22.03.2024"
         },
         kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
+          iftorlik:"18:51",
+          saharlik:"5:10",
           haftaKuni:"Shanba",
           sana:"23.03.2024"
         },
         kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
+          iftorlik:"18:52",
+          saharlik:"5:09",
           haftaKuni:"Yakshanba",
           sana:"24.03.2024"
         },
         kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
+          iftorlik:"18:53",
+          saharlik:"05:08",
           haftaKuni:"Dushanba",
           sana:"25.03.2024"
         },
         kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
+          iftorlik:"18:54",
+          saharlik:"05:07",
           haftaKuni:"Seshanba",
           sana:"26.03.2024"
         },
         kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
+          iftorlik:"18:55",
+          saharlik:"05:06",
           haftaKuni:"Chorshanba",
           sana:"27.03.2024"
         },
         kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
+          iftorlik:"18:56",
+          saharlik:"05:05",
           haftaKuni:"Payshanba",
           sana:"28.03.2024"
         },
         kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
+          iftorlik:"18:58",
+          saharlik:"05:05",
           haftaKuni:"Juma",
           sana:"29.03.2024"
         },
         kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
+          iftorlik:"18:59",
+          saharlik:"05:04",
           haftaKuni:"Shanba",
           sana:"30.03.2024"
         },
         kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
+          iftorlik:"19:00",
+          saharlik:"05:03",
           haftaKuni:"Yakshanba",
           sana:"31.03.2024"
         },
         kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
+          iftorlik:"19:01",
+          saharlik:"05:02",
           haftaKuni:"Dushanba",
           sana:"01.04.2024"
         },
         kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
+          iftorlik:"19:02",
+          saharlik:"05:01",
           haftaKuni:"Seshanba",
           sana:"02.04.2024"
         },
         kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
+          iftorlik:"19:03",
+          saharlik:"05:00",
           haftaKuni:"Chorshanba",
           sana:"03.04.2024"
         },
         kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
+          iftorlik:"19:04",
+          saharlik:"04:59",
           haftaKuni:"Payshanba",
           sana:"04.04.2024"
         },
         kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
+          iftorlik:"19:06",
+          saharlik:"04:59",
           haftaKuni:"Juma",
           sana:"05.04.2024"
         },
         kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
+          iftorlik:"19:07",
+          saharlik:"04:58",
           haftaKuni:"Shanba",
           sana:"06.04.2024"
         },
         kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
+          iftorlik:"19:08",
+          saharlik:"04:57",
           haftaKuni:"Yakshanba",
           sana:"07.04.2024"
         },
         kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
+          iftorlik:"19:09",
+          saharlik:"04:56",
           haftaKuni:"Dushanba",
           sana:"08.04.2024"
         },
         kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
+          iftorlik:"19:10",
+          saharlik:"04:55",
           haftaKuni:"Seshanba",
           sana:"09.04.2024"
         },
       },
   },
+ 
+  {
+    name: "Nukus",
+    link: "nukus",
+    id: 8,
+    viloyat: {
+        kun1:{
+          iftorlik:"19:05",
+          saharlik:"06:00",
+          haftaKuni:"Dushanba",
+          sana:"11.03.2024"
+        },
+        kun2:{
+          iftorlik:"19:06",
+          saharlik:"5:58",
+          haftaKuni:"Seshanba",
+          sana:"12.03.2024"
+        },
+        kun3:{
+          iftorlik:"19:07",
+          saharlik:"5:57",
+          haftaKuni:"Chorshanba",
+          sana:"13.03.2024"
+        },
+        kun4:{
+          iftorlik:"19:09",
+          saharlik:"5:55",
+          haftaKuni:"Payshanba",
+          sana:"14.03.2024"
+        },
+        kun5:{
+          iftorlik:"19:10",
+          saharlik:"5:53",
+          haftaKuni:"Juma",
+          sana:"15.03.2024"
+        },
+        kun6:{
+          iftorlik:"19:11",
+          saharlik:"5:51",
+          haftaKuni:"Shanba",
+          sana:"16.03.2024"
+        }, kun7:{
+          iftorlik:"19:12",
+          saharlik:"5:50",
+          haftaKuni:"Yakshanba",
+          sana:"17.03.2024"
+        },
+        kun8:{
+          iftorlik:"19:13",
+          saharlik:"5:48",
+          haftaKuni:"Dushanba",
+          sana:"18.03.2024"
+        },
+        kun9:{
+          iftorlik:"19:14",
+          saharlik:"5:46",
+          haftaKuni:"Seshanba",
+          sana:"19.03.2024"
+        },
+        kun10:{
+          iftorlik:"19:16",
+          saharlik:"5:44",
+          haftaKuni:"Chorshanba",
+          sana:"20.03.2024"
+        },
+        kun11:{
+          iftorlik:"19:17",
+          saharlik:"5:42",
+          haftaKuni:"Payshanba",
+          sana:"21.03.2024"
+        },
+        kun12:{
+          iftorlik:"19:18",
+          saharlik:"5:41",
+          haftaKuni:"Juma",
+          sana:"22.03.2024"
+        },
+        kun13:{
+          iftorlik:"19:19",
+          saharlik:"5:39",
+          haftaKuni:"Shanba",
+          sana:"23.03.2024"
+        },
+        kun14:{
+          iftorlik:"19:21",
+          saharlik:"5:37",
+          haftaKuni:"Yakshanba",
+          sana:"24.03.2024"
+        },
+        kun15:{
+          iftorlik:"19:22",
+          saharlik:"05:35",
+          haftaKuni:"Dushanba",
+          sana:"25.03.2024"
+        },
+        kun16:{
+          iftorlik:"19:23",
+          saharlik:"05:34",
+          haftaKuni:"Seshanba",
+          sana:"26.03.2024"
+        },
+        kun17:{
+          iftorlik:"19:24",
+          saharlik:"05:32",
+          haftaKuni:"Chorshanba",
+          sana:"27.03.2024"
+        },
+        kun18:{
+          iftorlik:"19:25",
+          saharlik:"05:30",
+          haftaKuni:"Payshanba",
+          sana:"28.03.2024"
+        },
+        kun19:{
+          iftorlik:"19:26",
+          saharlik:"05:28",
+          haftaKuni:"Juma",
+          sana:"29.03.2024"
+        },
+        kun20:{
+          iftorlik:"19:27",
+          saharlik:"05:26",
+          haftaKuni:"Shanba",
+          sana:"30.03.2024"
+        },
+        kun21:{
+          iftorlik:"19:28",
+          saharlik:"05:25",
+          haftaKuni:"Yakshanba",
+          sana:"31.03.2024"
+        },
+        kun22:{
+          iftorlik:"19:29",
+          saharlik:"05:23",
+          haftaKuni:"Dushanba",
+          sana:"01.04.2024"
+        },
+        kun23:{
+          iftorlik:"19:30",
+          saharlik:"05:21",
+          haftaKuni:"Seshanba",
+          sana:"02.04.2024"
+        },
+        kun24:{
+          iftorlik:"19:31",
+          saharlik:"05:19",
+          haftaKuni:"Chorshanba",
+          sana:"03.04.2024"
+        },
+        kun25:{
+          iftorlik:"19:32",
+          saharlik:"05:17",
+          haftaKuni:"Payshanba",
+          sana:"04.04.2024"
+        },
+        kun26:{
+          iftorlik:"19:33",
+          saharlik:"05:15",
+          haftaKuni:"Juma",
+          sana:"05.04.2024"
+        },
+        kun27:{
+          iftorlik:"19:35",
+          saharlik:"05:13",
+          haftaKuni:"Shanba",
+          sana:"06.04.2024"
+        },
+        kun28:{
+          iftorlik:"19:36",
+          saharlik:"05:11",
+          haftaKuni:"Yakshanba",
+          sana:"07.04.2024"
+        },
+        kun29:{
+          iftorlik:"19:37",
+          saharlik:"05:09",
+          haftaKuni:"Dushanba",
+          sana:"08.04.2024"
+        },
+        kun30:{
+          iftorlik:"19:38",
+          saharlik:"05:08",
+          haftaKuni:"Seshanba",
+          sana:"09.04.2024"
+        },
+      },
+  },
+
 
   {
     name: "Qarshi",
@@ -1682,553 +1869,368 @@ export const shahars = [
     id: 11,
     viloyat: {
         kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
+          iftorlik:"18:42",
+          saharlik:"5:38",
           haftaKuni:"Dushanba",
           sana:"11.03.2024"
         },
         kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
+          iftorlik:"18:43",
+          saharlik:"5:36",
           haftaKuni:"Seshanba",
           sana:"12.03.2024"
         },
         kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
+          iftorlik:"18:44",
+          saharlik:"5:35",
           haftaKuni:"Chorshanba",
           sana:"13.03.2024"
         },
         kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
+          iftorlik:"18:46",
+          saharlik:"5:33",
           haftaKuni:"Payshanba",
           sana:"14.03.2024"
         },
         kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
+          iftorlik:"18:47",
+          saharlik:"5:31",
           haftaKuni:"Juma",
           sana:"15.03.2024"
         },
         kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
+          iftorlik:"18:48",
+          saharlik:"5:29",
           haftaKuni:"Shanba",
           sana:"16.03.2024"
         }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
+          iftorlik:"18:49",
+          saharlik:"5:28",
           haftaKuni:"Yakshanba",
           sana:"17.03.2024"
         },
         kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
+          iftorlik:"18:50",
+          saharlik:"5:26",
           haftaKuni:"Dushanba",
           sana:"18.03.2024"
         },
         kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
+          iftorlik:"18:51",
+          saharlik:"5:24",
           haftaKuni:"Seshanba",
           sana:"19.03.2024"
         },
         kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
+          iftorlik:"18:51",
+          saharlik:"5:24",
           haftaKuni:"Chorshanba",
           sana:"20.03.2024"
         },
         kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
+          iftorlik:"18:52",
+          saharlik:"5:22",
           haftaKuni:"Payshanba",
           sana:"21.03.2024"
         },
         kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
+          iftorlik:"18:53",
+          saharlik:"5:21",
           haftaKuni:"Juma",
           sana:"22.03.2024"
         },
         kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
+          iftorlik:"18:54",
+          saharlik:"5:19",
           haftaKuni:"Shanba",
           sana:"23.03.2024"
         },
         kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
+          iftorlik:"18:56",
+          saharlik:"5:17",
           haftaKuni:"Yakshanba",
           sana:"24.03.2024"
         },
         kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
+          iftorlik:"18:57",
+          saharlik:"05:15",
           haftaKuni:"Dushanba",
           sana:"25.03.2024"
         },
         kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
+          iftorlik:"18:58",
+          saharlik:"05:14",
           haftaKuni:"Seshanba",
           sana:"26.03.2024"
         },
         kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
+          iftorlik:"18:59",
+          saharlik:"05:12",
           haftaKuni:"Chorshanba",
           sana:"27.03.2024"
         },
         kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
+          iftorlik:"19:00",
+          saharlik:"05:10",
           haftaKuni:"Payshanba",
           sana:"28.03.2024"
         },
         kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
+          iftorlik:"19:01",
+          saharlik:"05:08",
           haftaKuni:"Juma",
           sana:"29.03.2024"
         },
         kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
+          iftorlik:"19:01",
+          saharlik:"05:08",
           haftaKuni:"Shanba",
           sana:"30.03.2024"
         },
         kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
+          iftorlik:"19:02",
+          saharlik:"05:07",
           haftaKuni:"Yakshanba",
           sana:"31.03.2024"
         },
         kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
+          iftorlik:"19:03",
+          saharlik:"05:05",
           haftaKuni:"Dushanba",
           sana:"01.04.2024"
         },
         kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
+          iftorlik:"19:04",
+          saharlik:"05:03",
           haftaKuni:"Seshanba",
           sana:"02.04.2024"
         },
         kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
+          iftorlik:"19:05",
+          saharlik:"05:01",
           haftaKuni:"Chorshanba",
           sana:"03.04.2024"
         },
         kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
+          iftorlik:"19:06",
+          saharlik:"04:59",
           haftaKuni:"Payshanba",
           sana:"04.04.2024"
         },
         kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
+          iftorlik:"19:07",
+          saharlik:"04:57",
           haftaKuni:"Juma",
           sana:"05.04.2024"
         },
         kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
+          iftorlik:"19:09",
+          saharlik:"04:55",
           haftaKuni:"Shanba",
           sana:"06.04.2024"
         },
         kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
+          iftorlik:"19:10",
+          saharlik:"04:53",
           haftaKuni:"Yakshanba",
           sana:"07.04.2024"
         },
         kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
+          iftorlik:"19:11",
+          saharlik:"04:51",
           haftaKuni:"Dushanba",
           sana:"08.04.2024"
         },
         kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
+          iftorlik:"19:12",
+          saharlik:"04:50",
           haftaKuni:"Seshanba",
           sana:"09.04.2024"
         },
       },
   },
-  {
-    name: "Buxoro",
-    link: "buxoro",
-    id: 2,
-     viloyat: {
-        kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
-          haftaKuni:"Dushanba",
-          sana:"11.03.2024"
-        },
-        kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
-          haftaKuni:"Seshanba",
-          sana:"12.03.2024"
-        },
-        kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
-          haftaKuni:"Chorshanba",
-          sana:"13.03.2024"
-        },
-        kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
-          haftaKuni:"Payshanba",
-          sana:"14.03.2024"
-        },
-        kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
-          haftaKuni:"Juma",
-          sana:"15.03.2024"
-        },
-        kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
-          haftaKuni:"Shanba",
-          sana:"16.03.2024"
-        }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
-          haftaKuni:"Yakshanba",
-          sana:"17.03.2024"
-        },
-        kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
-          haftaKuni:"Dushanba",
-          sana:"18.03.2024"
-        },
-        kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
-          haftaKuni:"Seshanba",
-          sana:"19.03.2024"
-        },
-        kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
-          haftaKuni:"Chorshanba",
-          sana:"20.03.2024"
-        },
-        kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
-          haftaKuni:"Payshanba",
-          sana:"21.03.2024"
-        },
-        kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
-          haftaKuni:"Juma",
-          sana:"22.03.2024"
-        },
-        kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
-          haftaKuni:"Shanba",
-          sana:"23.03.2024"
-        },
-        kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
-          haftaKuni:"Yakshanba",
-          sana:"24.03.2024"
-        },
-        kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
-          haftaKuni:"Dushanba",
-          sana:"25.03.2024"
-        },
-        kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
-          haftaKuni:"Seshanba",
-          sana:"26.03.2024"
-        },
-        kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
-          haftaKuni:"Chorshanba",
-          sana:"27.03.2024"
-        },
-        kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
-          haftaKuni:"Payshanba",
-          sana:"28.03.2024"
-        },
-        kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
-          haftaKuni:"Juma",
-          sana:"29.03.2024"
-        },
-        kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
-          haftaKuni:"Shanba",
-          sana:"30.03.2024"
-        },
-        kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
-          haftaKuni:"Yakshanba",
-          sana:"31.03.2024"
-        },
-        kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
-          haftaKuni:"Dushanba",
-          sana:"01.04.2024"
-        },
-        kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
-          haftaKuni:"Seshanba",
-          sana:"02.04.2024"
-        },
-        kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
-          haftaKuni:"Chorshanba",
-          sana:"03.04.2024"
-        },
-        kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
-          haftaKuni:"Payshanba",
-          sana:"04.04.2024"
-        },
-        kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
-          haftaKuni:"Juma",
-          sana:"05.04.2024"
-        },
-        kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
-          haftaKuni:"Shanba",
-          sana:"06.04.2024"
-        },
-        kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
-          haftaKuni:"Yakshanba",
-          sana:"07.04.2024"
-        },
-        kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
-          haftaKuni:"Dushanba",
-          sana:"08.04.2024"
-        },
-        kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
-          haftaKuni:"Seshanba",
-          sana:"09.04.2024"
-        },
-      },
-  },
+  //------------------------------
   {
     name: "Namangan",
     link: "namangan",
     id: 7,
     viloyat: {
         kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
+          iftorlik:"18:18",
+          saharlik:"5:14",
           haftaKuni:"Dushanba",
           sana:"11.03.2024"
         },
         kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
+          iftorlik:"18:19",
+          saharlik:"5:12",
           haftaKuni:"Seshanba",
           sana:"12.03.2024"
         },
         kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
+          iftorlik:"18:20",
+          saharlik:"5:11",
           haftaKuni:"Chorshanba",
           sana:"13.03.2024"
         },
         kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
+          iftorlik:"18:22",
+          saharlik:"5:09",
           haftaKuni:"Payshanba",
           sana:"14.03.2024"
         },
         kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
+          iftorlik:"18:23",
+          saharlik:"5:07",
           haftaKuni:"Juma",
           sana:"15.03.2024"
         },
         kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
+          iftorlik:"18:24",
+          saharlik:"5:05",
           haftaKuni:"Shanba",
           sana:"16.03.2024"
         }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
+          iftorlik:"18:25",
+          saharlik:"5:04",
           haftaKuni:"Yakshanba",
           sana:"17.03.2024"
         },
         kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
+          iftorlik:"18:26",
+          saharlik:"5:02",
           haftaKuni:"Dushanba",
           sana:"18.03.2024"
         },
         kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
+          iftorlik:"18:27",
+          saharlik:"5:00",
           haftaKuni:"Seshanba",
           sana:"19.03.2024"
         },
         kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
+          iftorlik:"18:28",
+          saharlik:"04:58",
           haftaKuni:"Chorshanba",
           sana:"20.03.2024"
         },
         kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
+          iftorlik:"18:29",
+          saharlik:"04:56",
           haftaKuni:"Payshanba",
           sana:"21.03.2024"
         },
         kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
+          iftorlik:"18:30",
+          saharlik:"04:55",
           haftaKuni:"Juma",
           sana:"22.03.2024"
         },
         kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
+          iftorlik:"18:31",
+          saharlik:"04:53",
           haftaKuni:"Shanba",
           sana:"23.03.2024"
         },
         kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
+          iftorlik:"18:33",
+          saharlik:"04:51",
           haftaKuni:"Yakshanba",
           sana:"24.03.2024"
         },
         kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
+          iftorlik:"18:34",
+          saharlik:"04:49",
           haftaKuni:"Dushanba",
           sana:"25.03.2024"
         },
         kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
+          iftorlik:"18:35",
+          saharlik:"04:48",
           haftaKuni:"Seshanba",
           sana:"26.03.2024"
         },
         kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
+          iftorlik:"18:36",
+          saharlik:"04:46",
           haftaKuni:"Chorshanba",
           sana:"27.03.2024"
         },
         kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
+          iftorlik:"18:37",
+          saharlik:"04:44",
           haftaKuni:"Payshanba",
           sana:"28.03.2024"
         },
         kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
+          iftorlik:"18:38",
+          saharlik:"04:42",
           haftaKuni:"Juma",
           sana:"29.03.2024"
         },
         kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
+          iftorlik:"18:38",
+          saharlik:"04:40",
           haftaKuni:"Shanba",
           sana:"30.03.2024"
         },
         kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
+          iftorlik:"18:39",
+          saharlik:"04:39",
           haftaKuni:"Yakshanba",
           sana:"31.03.2024"
         },
         kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
+          iftorlik:"18:40",
+          saharlik:"04:37",
           haftaKuni:"Dushanba",
           sana:"01.04.2024"
         },
         kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
+          iftorlik:"18:41",
+          saharlik:"04:35",
           haftaKuni:"Seshanba",
           sana:"02.04.2024"
         },
         kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
+          iftorlik:"18:42",
+          saharlik:"04:33",
           haftaKuni:"Chorshanba",
           sana:"03.04.2024"
         },
         kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
+          iftorlik:"18:43",
+          saharlik:"04:31",
           haftaKuni:"Payshanba",
           sana:"04.04.2024"
         },
         kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
+          iftorlik:"18:44",
+          saharlik:"04:29",
           haftaKuni:"Juma",
           sana:"05.04.2024"
         },
         kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
+          iftorlik:"18:46",
+          saharlik:"04:27",
           haftaKuni:"Shanba",
           sana:"06.04.2024"
         },
         kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
+          iftorlik:"18:47",
+          saharlik:"04:25",
           haftaKuni:"Yakshanba",
           sana:"07.04.2024"
         },
         kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
+          iftorlik:"18:48",
+          saharlik:"04:23",
           haftaKuni:"Dushanba",
           sana:"08.04.2024"
         },
         kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
+          iftorlik:"18:49",
+          saharlik:"04:22",
           haftaKuni:"Seshanba",
           sana:"09.04.2024"
         },
@@ -2242,181 +2244,181 @@ export const shahars = [
     id: 13,
     viloyat: {
         kun1:{
-          iftorlik:"18:27",
-          saharlik:"5:23",
+          iftorlik:"19:01",
+          saharlik:"05:56",
           haftaKuni:"Dushanba",
           sana:"11.03.2024"
         },
         kun2:{
-          iftorlik:"18:28",
-          saharlik:"5:21",
+          iftorlik:"19:02",
+          saharlik:"5:54",
           haftaKuni:"Seshanba",
           sana:"12.03.2024"
         },
         kun3:{
-          iftorlik:"18:29",
-          saharlik:"5:20",
+          iftorlik:"19:03",
+          saharlik:"5:53",
           haftaKuni:"Chorshanba",
           sana:"13.03.2024"
         },
         kun4:{
-          iftorlik:"18:31",
-          saharlik:"5:18",
+          iftorlik:"19:05",
+          saharlik:"5:51",
           haftaKuni:"Payshanba",
           sana:"14.03.2024"
         },
         kun5:{
-          iftorlik:"18:32",
-          saharlik:"5:16",
+          iftorlik:"19:06",
+          saharlik:"5:49",
           haftaKuni:"Juma",
           sana:"15.03.2024"
         },
         kun6:{
-          iftorlik:"18:33",
-          saharlik:"5:14",
+          iftorlik:"19:07",
+          saharlik:"5:47",
           haftaKuni:"Shanba",
           sana:"16.03.2024"
         }, kun7:{
-          iftorlik:"18:34",
-          saharlik:"5:13",
+          iftorlik:"19:08",
+          saharlik:"5:46",
           haftaKuni:"Yakshanba",
           sana:"17.03.2024"
         },
         kun8:{
-          iftorlik:"18:35",
-          saharlik:"5:11",
+          iftorlik:"19:09",
+          saharlik:"5:44",
           haftaKuni:"Dushanba",
           sana:"18.03.2024"
         },
         kun9:{
-          iftorlik:"18:36",
-          saharlik:"5:09",
+          iftorlik:"19:10",
+          saharlik:"5:42",
           haftaKuni:"Seshanba",
           sana:"19.03.2024"
         },
         kun10:{
-          iftorlik:"18:37",
-          saharlik:"5:07",
+          iftorlik:"19:12",
+          saharlik:"5:40",
           haftaKuni:"Chorshanba",
           sana:"20.03.2024"
         },
         kun11:{
-          iftorlik:"18:38",
-          saharlik:"5:05",
+          iftorlik:"19:13",
+          saharlik:"5:38",
           haftaKuni:"Payshanba",
           sana:"21.03.2024"
         },
         kun12:{
-          iftorlik:"18:39",
-          saharlik:"5:04",
+          iftorlik:"19:14",
+          saharlik:"5:37",
           haftaKuni:"Juma",
           sana:"22.03.2024"
         },
         kun13:{
-          iftorlik:"18:40",
-          saharlik:"5:02",
+          iftorlik:"19:15",
+          saharlik:"5:35",
           haftaKuni:"Shanba",
           sana:"23.03.2024"
         },
         kun14:{
-          iftorlik:"18:42",
-          saharlik:"5:00",
+          iftorlik:"19:17",
+          saharlik:"5:33",
           haftaKuni:"Yakshanba",
           sana:"24.03.2024"
         },
         kun15:{
-          iftorlik:"18:43",
-          saharlik:"04:58",
+          iftorlik:"19:18",
+          saharlik:"05:31",
           haftaKuni:"Dushanba",
           sana:"25.03.2024"
         },
         kun16:{
-          iftorlik:"18:44",
-          saharlik:"04:47",
+          iftorlik:"19:19",
+          saharlik:"05:30",
           haftaKuni:"Seshanba",
           sana:"26.03.2024"
         },
         kun17:{
-          iftorlik:"18:45",
-          saharlik:"04:55",
+          iftorlik:"19:20",
+          saharlik:"05:28",
           haftaKuni:"Chorshanba",
           sana:"27.03.2024"
         },
         kun18:{
-          iftorlik:"18:46",
-          saharlik:"04:53",
+          iftorlik:"19:21",
+          saharlik:"05:26",
           haftaKuni:"Payshanba",
           sana:"28.03.2024"
         },
         kun19:{
-          iftorlik:"18:47",
-          saharlik:"04:51",
+          iftorlik:"19:22",
+          saharlik:"05:24",
           haftaKuni:"Juma",
           sana:"29.03.2024"
         },
         kun20:{
-          iftorlik:"18:48",
-          saharlik:"04:49",
+          iftorlik:"19:24",
+          saharlik:"05:21",
           haftaKuni:"Shanba",
           sana:"30.03.2024"
         },
         kun21:{
-          iftorlik:"18:49",
-          saharlik:"04:48",
+          iftorlik:"19:25",
+          saharlik:"05:20",
           haftaKuni:"Yakshanba",
           sana:"31.03.2024"
         },
         kun22:{
-          iftorlik:"18:50",
-          saharlik:"04:46",
+          iftorlik:"19:26",
+          saharlik:"05:18",
           haftaKuni:"Dushanba",
           sana:"01.04.2024"
         },
         kun23:{
-          iftorlik:"18:51",
-          saharlik:"04:44",
+          iftorlik:"19:27",
+          saharlik:"05:16",
           haftaKuni:"Seshanba",
           sana:"02.04.2024"
         },
         kun24:{
-          iftorlik:"18:52",
-          saharlik:"04:42",
+          iftorlik:"19:28",
+          saharlik:"05:14",
           haftaKuni:"Chorshanba",
           sana:"03.04.2024"
         },
         kun25:{
-          iftorlik:"18:53",
-          saharlik:"04:40",
+          iftorlik:"19:29",
+          saharlik:"05:12",
           haftaKuni:"Payshanba",
           sana:"04.04.2024"
         },
         kun26:{
-          iftorlik:"18:54",
-          saharlik:"04:38",
+          iftorlik:"19:30",
+          saharlik:"05:10",
           haftaKuni:"Juma",
           sana:"05.04.2024"
         },
         kun27:{
-          iftorlik:"18:56",
-          saharlik:"04:36",
+          iftorlik:"19:32",
+          saharlik:"05:08",
           haftaKuni:"Shanba",
           sana:"06.04.2024"
         },
         kun28:{
-          iftorlik:"18:57",
-          saharlik:"04:34",
+          iftorlik:"19:33",
+          saharlik:"05:06",
           haftaKuni:"Yakshanba",
           sana:"07.04.2024"
         },
         kun29:{
-          iftorlik:"18:58",
-          saharlik:"04:32",
+          iftorlik:"19:34",
+          saharlik:"05:04",
           haftaKuni:"Dushanba",
           sana:"08.04.2024"
         },
         kun30:{
-          iftorlik:"18:59",
-          saharlik:"04:31",
+          iftorlik:"19:35",
+          saharlik:"05:03",
           haftaKuni:"Seshanba",
           sana:"09.04.2024"
         },
