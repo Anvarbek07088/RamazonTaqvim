@@ -144,20 +144,19 @@
       }
       .olHeader {
         width: 150px;
-        height: 200px;
+        height: 100vh;
+        margin-left: -20px;
         padding: 20px 20px;
         z-index: 1;
         background-color: #1c4a36;
         color: #fff;
         position: absolute;
         top: 50%;
-        transform: translate(0%, 10%);
+        transform: translate(0%, 4%);
         list-style: none;
         display: flex;
         flex-direction: column;
         gap: 10px;
-        border-radius: 15px;
-        box-shadow: 0 0 15px black;
       }
       .olHeader .text {
         text-decoration: none;
