@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       <div className="footer_bottom">
         <div className="container ">
-          <div>
+          <div className="FooterLogo">
             <img src={headerLogo} alt="" />
           </div>
           <div className="footerBottomUl">
