@@ -511,9 +511,8 @@
    
 
     #homeCont{
-      height: 700px;
+      min-height: 700px;
       padding-top: 100px;
-      border-bottom: 2px solid #1c4a36;
     }
 
     .container {
@@ -521,7 +520,7 @@
     
 
       .vedios{
-        height:300px;
+        min-height:300px;
 
         p{
           font-size: 16px;
