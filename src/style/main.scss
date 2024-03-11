@@ -521,6 +521,10 @@
 
       .vedios{
         min-height:300px;
+        
+        video{
+          border: 1px solid #fff;
+        }
 
         p{
           font-size: 16px;
