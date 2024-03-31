@@ -51,7 +51,7 @@ const Kitoblar = () => {
             <div className="kitobBox">
                 <img src={kitob5} alt="" />
                 <div>
-                    <p>Ayol va uning jamiyat ustivorligidagi o'ni​</p>
+                    <p>Ayol va uning jamiyat ustivorligidagi o'rni​</p>
                     <p>Shayx Muhammad Hasson</p>
                     <NavLink className={"KitobLink"} to={"https://islomnuri.com/wp-content/uploads/2022/04/ayolning-orni.pdf"}>Kitobni ko'rish</NavLink>
                 </div>
