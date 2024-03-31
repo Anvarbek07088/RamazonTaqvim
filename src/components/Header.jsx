@@ -38,6 +38,11 @@ const Header = () => {
                   Namoz
                 </NavLink>
               </li>
+              <li>
+                <NavLink to={"/kitoblar"} className="text ">
+                  Kitoblar
+                </NavLink>
+              </li>
             </ol>
           </div>
         </div>
@@ -68,6 +73,11 @@ const Header = () => {
                 Namoz
               </NavLink>
             </li>
+            <li>
+                <NavLink to={"/kitoblar"} className="text ">
+                  Kitoblar
+                </NavLink>
+              </li>
           </ul>
         </div>
       </div>

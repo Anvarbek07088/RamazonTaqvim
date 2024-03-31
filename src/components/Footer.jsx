@@ -63,6 +63,11 @@ const Footer = () => {
                   Namoz
                 </NavLink>
               </li>
+              <li>
+                <NavLink to={"/kitoblar"} className="text ">
+                  Kitoblar
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className="footerBottomUl2">

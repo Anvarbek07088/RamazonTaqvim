@@ -19,6 +19,7 @@ import Daraja from "./components+/RozaningDarajalari";
 import Shartlari from "./components+/RozaningShartlari";
 import Turlari from "./components+/RozaningTurlari";
 import axios from "axios";
+import Kitoblar from "./components+/Kitoblar";
 
 function App() {
   React.useEffect(() => {
@@ -28,7 +29,7 @@ function App() {
   let [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <MyContext.Provider value={{menuOpen,setMenuOpen}}>
+    <MyContext.Provider value={{ menuOpen, setMenuOpen }}>
       <Router>
         <Header />
         <main className="flex-grow ">
@@ -42,6 +43,7 @@ function App() {
             <Route path="/surah/savol3" element={<Shartlari />} />
             <Route path="/surah/savol4" element={<Turlari />} />
             <Route path="/namozvaqti" element={<NamozVaqti />} />
+            <Route path="/kitoblar" element={<Kitoblar />} />
           </Routes>
         </main>
         <Footer />
