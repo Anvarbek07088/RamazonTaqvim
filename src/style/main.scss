@@ -601,6 +601,10 @@
           background-color: #fff;
           color: #000;
           padding: 10px 20px;
+
+          &:hover{
+            box-shadow:  0 0 20px black;
+          }
         }
 
         img {
