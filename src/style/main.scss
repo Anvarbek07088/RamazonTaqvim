@@ -140,6 +140,7 @@
         ol .text {
           text-decoration: none;
           list-style: none;
+          
         }
       }
       #menuBacround {
@@ -174,7 +175,17 @@
         list-style: none;
         color: #fff;
         font-size: 20px;
+        height: 20px;
+        width: 150px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid black;
+
+        &:hover{
+          background-color: #089a08;
+        }
       }
+
+          
       .menuNoOpens {
         display: none;
       }
