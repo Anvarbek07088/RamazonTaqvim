@@ -46,9 +46,10 @@ const Header = () => {
             </ol>
           </div>
         </div>
-        <div>
-          <NavLink to="/">
-            <img src={headerLogo} alt="" className="headerLogo" />
+        <div className="">
+          <NavLink to="/" className="headerLogo logo-container">
+            <img src={headerLogo} alt=""  />
+           <span className="page-logo"> MUSLIM</span>
           </NavLink>
         </div>
         <div>
