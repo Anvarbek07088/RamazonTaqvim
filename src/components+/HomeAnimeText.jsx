@@ -16,7 +16,7 @@ const HomeAnime = () => {
               <span>MA'LUMOTLAR.</span>
             </h2>
             <hr />
-            <a class="sp-circle-link" href="https://nick.mkrtchyan.ga">
+            <a class="sp-circle-link" href="">
               BIZDA
             </a>
           </div>

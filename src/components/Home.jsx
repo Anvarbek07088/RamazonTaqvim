@@ -38,12 +38,17 @@ const Home = () => {
             vedyolari
           </p>
           <div className="youtub">
-            <ReactPlayer
+            {<ReactPlayer
               url={"https://youtu.be/QldRFRWvBxs?si=WKVBbXSPxj5n_NvP"}
               controls={true}
               width='100%'
               className="yotubevedyo"
-            />
+            />?<ReactPlayer
+            url={"https://youtu.be/QldRFRWvBxs?si=WKVBbXSPxj5n_NvP"}
+            controls={true}
+            width='100%'
+            className="yotubevedyo"
+          />: "Loading..."}
             <ReactPlayer
               url={"https://youtu.be/EMfZ7o-kI78?si=-JZtBFq0iyINs8fy"}
               controls={true}
