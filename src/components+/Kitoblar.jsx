@@ -6,6 +6,7 @@ import kitob3 from "../Imges/kitob3.png"
 import kitob4 from "../Imges/kitob4.png"
 import kitob5 from "../Imges/kitob5.png"
 import kitob6 from "../Imges/Kitob6.jpg"
+import kitob7 from "../Imges/otkish.jpg"
 const Kitoblar = () => {
   return (
    <div className="Kitoblar">
@@ -63,6 +64,15 @@ const Kitoblar = () => {
                     <p>TARIXI MUHAMMADIY​</p>
                     <p>Alixonto’ra Sog’uniy</p>
                     <NavLink className={"KitobLink"} to={"https://siyrat.uz/storage/books/MDh1lrJ9on4m7H1hd68aQWzfLbKYSrvbtDN2Qbk8.pdf"}>Kitobni ko'rish</NavLink>
+                </div>
+            </div>
+
+            <div className="kitobBox">
+                <img src={kitob7} alt="" />
+                <div>
+                    <p>Ot kishnagan oqshomlar​</p>
+                    <p>Tog'ay Murod</p>
+                    <NavLink className={"KitobLink"} to={"https://www.kitob.uz/book/3974/reader"}>Kitobni ko'rish</NavLink>
                 </div>
             </div>
         </div>
